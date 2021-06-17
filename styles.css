@@ -67,7 +67,7 @@ body{
 }
 
 .header .layer {
-    background: url(..images/dots.png);
+    background: url(images/dots.png);
     min-height: 100vh;
     display: grid;
     align-items: center;
