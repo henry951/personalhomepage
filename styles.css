@@ -40,7 +40,7 @@ body{
 }
 
 .header .banner{
-    background: url(/images/banner1.jpg) top;
+    background: url(images/banner1.jpg) top;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -49,7 +49,7 @@ body{
 }
 
 .header .banner_readmore{
-    background: url(/images/banner_readmore.jpg) top;
+    background: url(images/banner_readmore.jpg) top;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -58,7 +58,7 @@ body{
 }
 
 .header .banner_news{
-    background: url(/images/banner_news.jpg) top;
+    background: url(images/banner_news.jpg) top;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -67,7 +67,7 @@ body{
 }
 
 .header .layer {
-    background: url(../images/dots.png);
+    background: url(..images/dots.png);
     min-height: 100vh;
     display: grid;
     align-items: center;
@@ -190,7 +190,7 @@ body{
 }
 
 .education-experience{
-    background: url(/images/banner2.jpg) no-repeat center;
+    background: url(images/banner2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     padding: 5rem 0px;
