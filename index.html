@@ -1,0 +1,265 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JAVA Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
+    <title>20070958G's Webpage</title>
+</head>
+<body>
+    <!-- COMP5332 Mid-Term Assignment, Name: YAU Pui Hang, Student ID: 20070958G -->
+    <!-- header start -->
+    <section class="header">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+          <div class="container">
+              <div class="d-flex flex-grow-1">
+                  <span class="d-lg-none d-block w-100"></span>
+                  <a class="navbar-brand" href="#">My Homepage</a>
+                  <div class="w-100 text-right">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                  </div>
+              </div>
+              <div class="collapse navbar-collapse flex-grow-1" id="myNavbar">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#about" class="nav-link">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                            <a class="dropdown-item" href="news.html">NEWS</a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <!-- banner -->
+      <div class="banner text-center">
+        <div class="layer">
+          <div class="intro">
+              <img src="/images/icon.jpeg" alt="icon" class="img-fluid">
+              <h3>Hello! I'm</h3>
+              <h1>YAU Pui Hang</h1>
+              <h3>I'm <b>PolyU</b> COMP Student</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- header end -->
+
+    <!-- content start -->
+    <section class="content">
+      <!-- About Me -->
+      <div class="about-me" id="about">
+        <div class="container text-left heading">
+            <div class="row"> 
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                  <img src="/images/icon.jpeg" alt="about-me-img">
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                  <h3 class="title">About Me</h3>
+                  <p>Computing graduate. Currently pursuing MScIT programme at the Hong Kong Polytechnic University. Familiar with several programming languages, such as JAVA Script, Python, and C. Have the administration skills across MySQL,
+                    Oracle and NoSQL database. Extensive knowledge in designing, implementing web applications and mobile computing with
+                    diverse development tools and framework, like NodeJS, React Native, Django.</p>
+                  <a href="gallery.html"> Learn More </a>
+                </div>
+            </div>
+
+            <h3 class="title">My Knowledge</h3>
+            <div class="row my-knowledge">
+              <div class="col-lg-3 col-md-6 col-sm-12 text-center knowledge-box">
+                <img src="/images/code.jpg" alt="Programming Language">
+                <h3>Language</h3>
+                <p>JavaScript, C, C#, Python, HTML, XML, JSON, PHP, CSS</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 text-center knowledge-box">
+                <img src="/images/software.jpg" alt="Software">
+                <h3>Software</h3>
+                <p>Apache, Android Studio, Visual Studio Code, Eclipse, BlueJ, MS office</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 text-center knowledge-box">
+                <img src="/images/framework.jpg" alt="Framework">
+                <h3>Framework</h3>
+                <p>Django, Laravel, React JS, Angular JS, Express, Flask, jQuery</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 text-center knowledge-box">
+                <img src="/images/database.jpg" alt="Database">
+                <h3>Database</h3>
+                <p>MySQL, Oracle, SQLite, MariaDB, MongoDB, Amazon RDS</p>
+              </div>
+
+            </div>   
+        </div>
+      </div>
+
+      <!-- Education and Experiences-->
+      <div class="education-experience">
+        <div class="layer">
+          <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <!-- inner Start -->
+              <div class="carousel-inner">
+
+                <div class="carousel-item active p-4">
+                  <div class="education">
+                    <h3>Education</h3>
+                      <h5>Now</h5>
+                      <h4>MSc Information Technology, Hong Kong Polytechnic University</h4>
+                      <p class="text-white">The programme is designed and structured to incrementally help students to build a strong foundation in core concepts underpinning IT. The knowledge acquired is further reinforced by allowing me to put into practice the concepts learned in class through solving IT problems in the form of projects.</p>
+                      <h5>2020</h5>
+                      <h4>BSc Information Technology , Hong Kong Polytechnic University</h4>
+                      <p class="text-white">The programme equiped me with solid foundations of computer science for solving practical problems and developing software for high performance and intelligent computing systems.</p>
+                      <h5>2018</h5>
+                      <h4>Associate in Information Technology, HKCC Hong Kong Community College</h4>
+                      <p class="text-white">The programme offered a broad-based and holistic education which equiped me with not only generic skills and knowledge essential for lifelong learning but also IT-specific knowledge crucial to future academic pursuits or career development in the IT field.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item p-4">
+                  <div class="experience">
+                    <h3>Experiences</h3>
+                    <h5>2019 - now</h5>
+                    <h4>Student Assistant – IT Support at PolyU</h4>
+                    <p class="text-white">Assist in updating website by Content Management System, conduct UAT for new modules/workflows/website revamp and assist in updating and maintaining system databases</p>
+                    <h5>2018 - 2019</h5>
+                    <h4>IT Assistant at HKT</h4>
+                    <p class="text-white">Prepare documentation including user requirement specification and test plan. Conduct development & testing, provide application maintenance support and participate the system implementation.</p>
+                    <h5>2017 - 2018</h5>
+                    <h4>Online Shop Assistant</h4>
+                    <p class="text-white">Provide customer Service and support, assist in modifying and updating database and distribute E-coupons to customers via online shop</p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- inner End -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="tech-skills" id="contact">
+        <div class="container">
+          <div class="container">
+            <div class="d-flex justify-content-center"><h1>What I can do</h1></div>
+          </div>
+          <div class="row">
+
+              <div class="col-md-4 skill-box">
+                <i class="fa fa-desktop"></i>
+                <h3 class="text-center">Web Development</h3>
+                <p>I have an understanding of HTML, CSS, and JavaScript. Responsive Web Design is applied in my works. I also use AJAX and JSON for making server requests and familiar with several web frameworks.s</p>
+              </div>
+
+              <div class="col-md-4 skill-box">
+                <i class="fa fa-gears"></i>
+                <h3 class="text-center">Apps Development</h3>
+                <p>I have an understanding of principles of secure, stable software design. I also exposure to and understand the development methodology and development platforms or environments. </p>
+              </div>
+
+              <div class="col-md-4 skill-box">
+                <i class="fa fa-gamepad"></i>
+                <h3 class="text-center">Games Development</h3>
+                <p>I have an understanding of C# and the experience of the Unity Game Engine and Google AR Kit.</p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact">
+          <div class="d-flex justify-content-center"><h1>Contact Me</h1></div>
+          <h3 class="text-center">Get in touch with me</h3>
+
+  
+          <div class="row"> 
+            <!-- Form -->
+           <div class="col-md-5 contact-box">
+             <form action="mailto:20070958g@connect.polyu.hk" method="post" enctype=”multipart/form-data”>
+                 <input type="text" name="Your Name" placeholder="Name" required>
+                 <input type="email" name="Your Email" placeholder="Email" required>
+                 <input type="text" name="Phone Number" placeholder="Phone Number" required>
+                 <textarea name="Message" placeholder="Message" required></textarea>
+                 <input type="submit" value="Submit">
+             </form>
+           </div>
+ 
+           <!-- Google Map -->
+           <div class="col-md-7 google-map">
+             <iframe src="https://maps.google.com/maps?q=%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%B8&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0"></iframe>
+           </div>
+         </div>
+
+      </div>
+
+    </section>
+    <!-- content end -->
+
+    <!-- footer start -->
+    <section class="footer">
+      <div class="container">
+        <!-- Contact Methods -->
+        <div class="row contact-me">
+          <div class="col-md-6 social-media">
+            <h3>Find Me Here</h3>
+            <hr>
+            <div class="w-100"></div>
+            <a href="https://www.facebook.com/people/%E5%84%AA%E4%BA%A8/100000390766540" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a>
+            <a href="https://twitter.com/kenrykry988" target="_blank" class="twitter"><span class="fa fa-twitter"></span></a>
+            <a href="https://www.instagram.com/henry_in_ig/?hl=zh-hk" target="_blank" class="google-plus"><span class="fa fa-instagram"></span></a>
+          </div>
+          <div class="col-md-6 contact-info">
+            <h3>Contact Info</h3>
+            <hr>
+            <div class="w-100"></div>
+            <i class="fa fa-phone"></i>
+            <h5>+852 9171 1304</h5>
+            <div class="w-100"></div>
+            <i class="fa fa-envelope"></i>
+            <h5><a href="mailto:20070958g@connect.polyu.hk">20070958g@connect.polyu.hk</a></h5>
+            <div class="w-100"></div>
+            <i class="fa fa-map-marker"></i>
+            <h5>P Core, The PolyU</h5>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+          <hr>
+          <h5 class="d-flex justify-content-center">Copyright © YAU Pui Hang 20070958G. All Rights Reserved. 2020</h5>
+        </div>
+
+      </div>
+    </section>
+    <!-- footer end -->
+</body>
+</html>
